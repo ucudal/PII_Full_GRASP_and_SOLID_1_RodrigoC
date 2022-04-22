@@ -8,6 +8,7 @@ namespace Full_GRASP_And_SOLID.Library
 {
     public class Step
     {
+        //En el parámetro time, ingresar la cantidad de tiempo en minutos
         public Step(Product input, double quantity, Equipment equipment, int time)
         {
             this.Quantity = quantity;

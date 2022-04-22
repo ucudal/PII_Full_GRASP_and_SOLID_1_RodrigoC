@@ -13,6 +13,11 @@ namespace Full_GRASP_And_SOLID.Library
     {
         private ArrayList steps = new ArrayList();
 
+        public ArrayList Calculatesteps()
+        {
+            return steps;
+        }
+
         public Product FinalProduct { get; set; }
 
         public void AddStep(Step step)
@@ -34,5 +39,7 @@ namespace Full_GRASP_And_SOLID.Library
                     $"usando '{step.Equipment.Description}' durante {step.Time}");
             }
         }
+
+        
     }
 }
